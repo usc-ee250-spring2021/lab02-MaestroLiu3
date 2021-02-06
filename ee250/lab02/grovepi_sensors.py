@@ -44,9 +44,9 @@ if __name__ == '__main__':
 	#print("sensor_value =%d" %(sensor_value))
         print(sensor_value)
         setRGB(0,255,0)
-        setText_norefresh(str(sensor_value) + "cm          " + "\n"  + str(ultra_value) + "cm " )
+        setText_norefresh(str(sensor_value) + "cm           " + "\n"  + str(ultra_value) + "cm " )
         while(sensor_value >  ultra_value):
-            setText_norefresh(str(sensor_value) + "cm OBJ PRES " + "\n"+ str(ultra_value) + "cm ")
+            setText_norefresh(str(sensor_value) + "cm OBJ PRES" + "\n"+ str(ultra_value) + "cm ")
             setRGB(255,0,0)
             sensor_value = grovepi.analogRead(potentiometer)
             ultra_value = grovepi.ultrasonicRead(PORT)
