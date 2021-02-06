@@ -44,6 +44,6 @@ if __name__ == '__main__':
         print(sensor_value)
         setText("Hello my name")
 #<<<<<<< HEAD
-=======
+#=======
 
->>>>>>> 1048cbfe0955e88f95024ca430dc7f8d9bb255a0
+#>>>>>>> 1048cbfe0955e88f95024ca430dc7f8d9bb255a0
