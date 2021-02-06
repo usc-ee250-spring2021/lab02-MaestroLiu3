@@ -42,7 +42,7 @@ if __name__ == '__main__':
         #print(grovepi.ultrasonicRead(PORT))
 	#print("sensor_value =%d" %(sensor_value))
         print(sensor_value)
-        setText_norefresh(.format(str(sensor_value)))
+        setText_norefresh(str(sensor_value))
         setRGB(0,255,0)
 #<<<<<<< HEAD
 #=======
