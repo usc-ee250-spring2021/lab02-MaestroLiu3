@@ -43,7 +43,7 @@ if __name__ == '__main__':
 	#print("sensor_value =%d" %(sensor_value))
         print(sensor_value)
         setText_norefresh("Hello")
-        setRGB(0,255,255)
+        setRGB(0,255,0)
 #<<<<<<< HEAD
 #=======
 
