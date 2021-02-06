@@ -42,5 +42,4 @@ if __name__ == '__main__':
 	#print("sensor_value =%d" %(sensor_value))
         print(sensor_value)
         setText(sensor_value)
-	
 
