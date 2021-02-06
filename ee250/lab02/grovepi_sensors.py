@@ -23,6 +23,7 @@ sys.path.append('../../Software/Python/')
 # This append is to support importing the LCD library.
 sys.path.append('../../Software/Python/grove_rgb_lcd')
 
+from grove_rgb_lcd import *
 import grovepi
 potentiometer = 0 # rotary angle sensor on analog 0
 """This if-statement checks if you are running this python file directly. That 
@@ -40,7 +41,5 @@ if __name__ == '__main__':
 	#read distance value from ultrasonic
         #print(grovepi.ultrasonicRead(PORT))
 	#print("sensor_value =%d" %(sensor_value))
-        print("sensor_value")
-        setText("Hello World")
-	
-
+        print(sensor_value)
+        setText(sensor_value)
