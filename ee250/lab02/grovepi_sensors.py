@@ -43,7 +43,7 @@ if __name__ == '__main__':
 	#print("sensor_value =%d" %(sensor_value))
         print(sensor_value)
         setText("Hello my name")
-<<<<<<< HEAD
+#<<<<<<< HEAD
 =======
 
 >>>>>>> 1048cbfe0955e88f95024ca430dc7f8d9bb255a0
