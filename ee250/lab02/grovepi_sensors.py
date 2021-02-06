@@ -41,5 +41,5 @@ if __name__ == '__main__':
         #print(grovepi.ultrasonicRead(PORT))
 	#print("sensor_value =%d" %(sensor_value))
         print(sensor_value)
-        setText(sensor_value)
+        setText("Hello")
 
