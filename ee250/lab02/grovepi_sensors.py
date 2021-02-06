@@ -45,9 +45,9 @@ if __name__ == '__main__':
         setRGB(0,255,0)
         setText_norefresh(str(sensor_value) + "cm ")
         if(sensor_value >  grovepi.ultrasonicRead(PORT)):
-           setText_norefresh("OBJ PRES " + "/n")
+           setText_norefresh("OBJ PRES " + "\n")
            setRGB(255,0,0)
-        setText_refresh(str(grovepi.ultrasonicRead(PORT)) + "cm ")
+        setText_norefresh(str(grovepi.ultrasonicRead(PORT)) + "cm ")
 
 
 
